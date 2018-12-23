@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FootNow</string>
+    <string name="TextLogin">Iniciar Sesión</string>
+    <string name="TextRegistrate">¿No tienes cuenta?</string>
+    <string name="TextRegister">Registrate</string>
+    <string name="textEmail">Email</string>
+    <string name="textPassword">Password</string>
+</resources>
