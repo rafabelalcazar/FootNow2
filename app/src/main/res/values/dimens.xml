@@ -3,4 +3,5 @@
     <dimen name="iconWidth">350dp</dimen>
     <dimen name="iconHeight">200dp</dimen>
     <dimen name="cornerRadius">16dp</dimen>
+    <dimen name="txtsize16">16dp</dimen>
 </resources>

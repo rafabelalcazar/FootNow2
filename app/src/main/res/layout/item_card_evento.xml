@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+                                   android:layout_width="match_parent"
+                                   android:layout_margin="8dp"
+                                   android:layout_height="120dp"
+                                   android:background="@color/colorPrimaryDark"
+
+                                   app:cardBackgroundColor="@color/textPrimary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent"
+                                                       android:layout_height="wrap_content">
+
+
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp" tools:srcCompat="@mipmap/ic_launcher"
+
+                android:id="@+id/imageView2" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp" android:id="@+id/txtNomEvent"
+                tools:text="Maracana Futol Club"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toEndOf="@+id/imageView2"
+                android:layout_marginStart="8dp" android:layout_marginLeft="8dp" android:textColor="@color/textDark"/>
+        <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:id="@+id/guideline"
+                                                    app:layout_constraintGuide_begin="234dp"
+                                                    android:orientation="vertical"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:id="@+id/ubi"
+                tools:text="San Bernardino"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/hora" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/plazas" android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="@+id/plazas" android:textColor="@color/textDark"/>
+        <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:id="@+id/plazas"
+                tools:text="3/7"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="10sp" android:layout_marginStart="20dp"
+                app:layout_constraintStart_toStartOf="@+id/guideline" android:layout_marginLeft="20dp"
+                android:textColor="@color/textDark"/>
+        <TextView
+                android:layout_width="47dp"
+                android:layout_height="13dp"
+                android:id="@+id/hora"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toEndOf="@+id/ubi" android:textColor="@color/textDark" tools:text="9:00 pm"
+                android:textAllCaps="false"
+                app:layout_constraintStart_toEndOf="@+id/txtHoraEvent" android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp" app:layout_constraintHorizontal_bias="1.0"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/txtNomEvent"/>
+
+        <TextView
+                android:text="@string/plazas"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:id="@+id/txtPlazas"
+                tools:text="Plazas:"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="10sp" android:textColor="@color/textDark"/>
+        <TextView
+                android:text="@string/ubicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="14dp"
+                android:id="@+id/txtUbi"
+                tools:text="@string/ubicacion"
+                app:layout_constraintStart_toStartOf="@+id/txtPlazas" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtHoraEvent" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/txtPlazas" android:textSize="10sp"
+                android:textColor="@color/textDark"/>
+
+        <TextView
+                android:text="@string/hora"
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:id="@+id/txtHoraEvent" tools:text="Hora:  "
+                app:layout_constraintStart_toStartOf="@+id/txtUbi" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtNomEvent" android:textSize="10sp"
+                android:textColor="@color/textDark"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

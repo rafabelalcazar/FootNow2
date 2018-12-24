@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/icon_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Perfil"
+            android:iconTint="@color/textPrimary"
+    />
+
+    <item
+        android:title="Jugar"
+        android:icon="@drawable/ic_ball"
+        android:id="@+id/ball"
+        android:iconTint="@color/textPrimary"
+    />
+
+    <item
+        android:title="Evento"
+        android:icon="@drawable/ic_cancha"
+        android:id="@+id/cancha"
+        android:iconTint="@color/textPrimary"/>
+
+</menu>

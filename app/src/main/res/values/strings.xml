@@ -14,10 +14,27 @@
     <string name="hora">Hora:</string>
     <string name="ubicacion">Ubicacion</string>
     <string name="plazas">Plazas:</string>
+
+
+
     <string name="datosPartido">Datos del Partido</string>
 
     <string-array name="posiciones">
         <item>Selecione una posicion</item>
+
+
+
+    <string name="numPartidos">Partidos Jugados</string>
+    <string name="txtGanados">Ganados</string>
+    <string name="txtPerdidos">Perdidos</string>
+    <string name="txtEmpatado">Empatados</string>
+
+
+    
+    <string-array name="posicion">
+
+
+
         <item>Portero</item>
         <item>Defensa</item>
         <item>Medio</item>
