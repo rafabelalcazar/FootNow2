@@ -20,4 +20,13 @@
     <string name="txtEmpatado">Empatados</string>
 
 
+    
+    <string-array name="posicion">
+        <item>Portero</item>
+        <item>Defensa</item>
+        <item>Medio</item>
+        <item>Delantero</item>
+    </string-array>
+
+
 </resources>
