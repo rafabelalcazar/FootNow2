@@ -5,4 +5,10 @@
     <string name="TextRegister">Registrate</string>
     <string name="textEmail">Email</string>
     <string name="textPassword">Password</string>
+    <string name="userProfile">Tu Perfil</string>
+    <string name="txtUserName">Nombre</string>
+    <string name="txtAge">Edad</string>
+    <string name="txtPosition">Posición</string>
+    <string name="txtLevel">Nivel</string>
+    <string name="txtFiabilidad">Fiabilidad</string>
 </resources>
