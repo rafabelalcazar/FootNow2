@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
 
         txtTest.setOnClickListener{
-            startActivity<LoginActivity>()
+            startActivity<CrearPartidoActivity>()
 
         }
 
