@@ -14,6 +14,10 @@
     <string name="hora">Hora:</string>
     <string name="ubicacion">Ubicacion</string>
     <string name="plazas">Plazas:</string>
+    <string name="numPartidos">Partidos Jugados</string>
+    <string name="txtGanados">Ganados</string>
+    <string name="txtPerdidos">Perdidos</string>
+    <string name="txtEmpatado">Empatados</string>
 
 
 </resources>
