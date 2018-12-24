@@ -17,6 +17,7 @@
     <string name="datosPartido">Datos del Partido</string>
 
     <string-array name="posiciones">
+        <item>Selecione una posicion</item>
         <item>Portero</item>
         <item>Defensa</item>
         <item>Medio</item>
